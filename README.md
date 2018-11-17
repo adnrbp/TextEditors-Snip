@@ -1,2 +1,2 @@
 # TextEditors-Snip
-Snippeds and configs for Text Editors
+Snippets and configs for Text Editors

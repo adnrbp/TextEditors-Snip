@@ -1,0 +1,35 @@
+[
+{"keys":["ctrl+a"], "command": "move_to","args": {"to": "bol","extend":false}},
+{"keys":["ctrl+e"], "command": "move_to","args": {"to": "eol","extend":false}},
+
+{"keys":["ctrl+b"], "command": "move","args": {"by": "characters","forward":false}},
+{"keys":["ctrl+f"], "command": "move","args": {"by": "characters","forward":true}},
+{"keys":["ctrl+p"], "command": "move","args": {"by": "lines","forward":false}},
+{"keys":["ctrl+n"], "command": "move","args": {"by": "lines","forward":true}},
+
+{"keys":["alt+b"], "command": "move","args": {"by": "words","forward":false}},
+{"keys":["alt+f"], "command": "move","args": {"by": "word_ends","forward":true}},
+
+{"keys":["ctrl+d"], "command": "delete_word","args": {"forward":true}},
+{"keys":["ctrl+h"], "command": "left_delete"},
+{"keys":["ctrl+shift+h"], "command": "delete_word","args": {"forward":false}},
+{"keys":["ctrl+m"], "command": "insert","args": {"characters": "\n"}},
+
+
+
+
+{"keys":["super+shift+a"], "command": "select_all"},
+
+{"keys":["super+shift+f"], "command": "show_panel","args": {"panel":"find"}},
+{"keys":["ctrl+ñ"], "command": "show_overlay","args": {"overlay":"goto","show_files":true}},
+{"keys":["ctrl+x","ctrl+b"], "command": "show_overlay","args": {"overlay":"goto","show_files":true}},
+{"keys":["super+n"], "command": "new_file"},
+
+{"keys":["alt+x"], "command": "cut"},
+
+{"keys":["ctrl+ñ"], "command": "find_under_expand"},
+{"keys":["alt+h"], "command": "show_panel","args": {"panel":"replace"}},
+
+{"keys":["super+shift+h"], "command": "replace_next"}
+
+]
